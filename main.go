@@ -18,6 +18,8 @@ func main() {
 
     problemMap := map[string]func() string {
         "1": P1,
+        "2": P2,
+        "3": P3,
     }
 
     clock := time.Now()
